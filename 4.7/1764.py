@@ -4,10 +4,10 @@ listen = set()
 see = set()
 
 for i in range(n):
-    listen.add(input().strip())
+    listen.add(input())
 
 for i in range(m):
-    see.add(input().strip())
+    see.add(input())
 
 listensee = sorted(listen & see)
 
