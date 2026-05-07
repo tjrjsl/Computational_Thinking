@@ -13,7 +13,7 @@ def def4(a):
     n = len(a)
     for i in range(n):
         for j in range(n):
-            print("%5d" % a[i][j], end="")
+            print(f"{a[i][j]:5d}", end="")
         print()
 
 n = int(input("N 입력: "))
