@@ -16,7 +16,7 @@ def def4(a):
             print(f"{a[i][j]:5d}", end="")
         print()
 
-n = int(input("N 입력: "))
+n = int(input())
 
 if 1 < n <= 5:
     A = def3(n)
